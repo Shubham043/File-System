@@ -61,12 +61,6 @@ Three approaches were evaluated:
 | GET | `/:id` | Get a folder's contents (subfolders + images) |
 | DELETE | `/:id` | Delete a folder |
 
-### Images (`/api/images`) — requires auth
-| Method | Endpoint | Description |
-|---|---|---|
-| POST | `/` | Upload an image (`multipart/form-data`, field: `image`) |
-| DELETE | `/:id` | Delete an image |
-
 ---
 
 ## Schema Design
