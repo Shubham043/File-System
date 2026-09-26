@@ -84,19 +84,8 @@ name, url, size, folderId, userId, createdAt
 ```
 - `userId` is denormalized here too, so ownership checks never need a join back to the folder
 
-**Indexes**
-- `Folder: { userId, parentId }` (compound)
-- `Image: { userId, folderId }` (compound)
-- `User: { email }` (unique)
 
 ---
-
-## Getting Started
-
-### Prerequisites
-- Node.js (v18+)
-- MongoDB instance (local or Atlas)
-- Cloudinary account (or S3 bucket, if using that storage path)
 
 ### Installation
 
